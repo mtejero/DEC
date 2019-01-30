@@ -1,0 +1,11 @@
+Bloque	Recursos	Procesos	CicloCliente	Valores	Clima	
+ 	4,00	3,33	SEGMENTACION	3,17	2,50	
+ 	4,00	3,00	ATRACCION	3,33	3,67	
+ 	4,00	3,83	ADQUISICION	3,50	3,17	
+ 	3,33	3,50	SERVICIO	4,17	3,33	
+ 	2,17	2,00	MAXIMIZACION	2,33	2,67	
+ 	2,33	2,00	FIDELIZACION	2,67	3,67	
+ 	3,33	3,00	RETENCION	3,67	3,50	
+ 	3,33	2,50	RECUPERACION	3,67	2,83	
+Pomedio por Bloque	3,31	2,90		3,31	3,17	
+Promedio por Pilar 		3,10			3,24	

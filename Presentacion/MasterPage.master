@@ -1,0 +1,68 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no" />
+    <title></title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link href="css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <asp:ContentPlaceHolder ID="cphHeader" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div class="top-logo">
+        <img class="logo-image" src="images/topheader3lines.jpg">
+    </div>
+    <div class="container logo-container">
+        <img class="logo-image" src="images/logo.png">
+    </div>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager" ScriptMode="Release" runat="server" EnableScriptGlobalization="True" EnableScriptLocalization="True" AsyncPostBackTimeout="9000">
+        </asp:ScriptManager>
+
+        <style type="text/css">
+            .modalBackground {
+                background-color: Gray;
+                filter: alpha(opacity=50);
+                opacity: 0.5;
+            }
+        </style>
+
+
+        <div id="swipeable">
+
+            <asp:ContentPlaceHolder ID="cphTabs" runat="server">
+            </asp:ContentPlaceHolder>
+
+            <asp:ContentPlaceHolder ID="cphContainer" runat="server">
+            </asp:ContentPlaceHolder>
+
+        </div>
+
+    </form>
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row center">
+                <div class="col l12 s12">
+                    <p class="white-text">© 2017 Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container"></div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <asp:ContentPlaceHolder ID="cphFooter" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>

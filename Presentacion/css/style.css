@@ -1,0 +1,231 @@
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+    body.segundo {
+        font-family: 'Permanent Marker', cursive;
+    }
+
+.top-logo {
+    width: 100%;
+    height: 4px;
+}
+
+    .top-logo img {
+        width: 100%;
+        height: 4px;
+        float: left;
+    }
+
+.logo-container {
+    height: 120px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.logo-image {
+    margin: 0 auto;
+}
+
+.logo-encuesta {
+    float: right;
+    margin: 10px;
+    margin-top: -160px;
+}
+
+#swipeable .tabs-container {
+    background: #57585A;
+}
+
+    #swipeable .tabs-container .row {
+        margin: 0px;
+    }
+
+.tabs {
+    min-width: 400px;
+    background: none;
+    overflow-x: hidden;
+}
+
+#swipeable .carousel .carousel-item {
+    width: 100%;
+    height: auto;
+}
+
+#swipeable .row #tabs-swipe .col, #swipeable .row #tabs-swipe-no .col {
+    float: none !important;
+}
+
+.tabs .tab {
+    width: 125px;
+}
+
+    .tabs .tab a {
+        color: #A5A5A7;
+        padding: 0px 2px;
+    }
+
+        .tabs .tab a:hover, .tabs .tab a.active {
+            color: #FFF;
+            background: #F2BC25;
+        }
+
+.tabs .indicator {
+    color: #F2BC25;
+}
+
+.tabs .indicator {
+    background: #F2BC25;
+}
+
+#swipeable .input-field i {
+    margin-top: 0.6rem;
+}
+
+.top-banner {
+    width: 100%;
+    height: 200px;
+}
+
+.top-banner-inner {
+    width: 100%;
+    height: 200px;
+}
+
+.top-banner-00 {
+    background: url("../images/tabsbanners/00.jpg") center;
+}
+
+.top-banner-01 {
+    background: url("../images/tabsbanners/01.jpg") center;
+}
+
+.top-banner-02 {
+    background: url("../images/tabsbanners/02.jpg") center;
+}
+
+.top-banner-03 {
+    background: url("../images/tabsbanners/03.jpg") center;
+}
+
+.top-banner-04 {
+    background: url("../images/tabsbanners/04.jpg") center;
+}
+
+.top-banner-05 {
+    background: url("../images/tabsbanners/05.jpg") center;
+}
+
+.top-banner-06 {
+    background: url("../images/tabsbanners/06.jpg") center;
+}
+
+.top-banner-07 {
+    background: url("../images/tabsbanners/07.jpg") center;
+}
+
+.top-banner-08 {
+    background: url("../images/tabsbanners/08.jpg") center;
+}
+
+.top-banner-09 {
+    background: url("../images/tabsbanners/09.jpg") center;
+}
+
+.top-banner-10 {
+    background: url("../images/tabsbanners/10.jpg") center;
+}
+
+.top-banner-11 {
+    background: url("../images/tabsbanners/11.jpg") center;
+}
+
+.top-banner-12 {
+    background: url("../images/tabsbanners/12.jpg") center;
+}
+
+.top-banner-13 {
+    background: url("../images/tabsbanners/13.jpg") center;
+}
+
+.top-banner-14 {
+    background: url("../images/tabsbanners/14.jpg") center;
+}
+
+
+.container800 {
+    max-width: 800px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.bottom-buttons a, .bottom-buttons button {
+    float: right;
+    font-family: 'Permanent Marker', cursive;
+}
+
+    .bottom-buttons a.anterior {
+        margin-right: 20px;
+    }
+
+.enunciado {
+    min-height: 48px;
+    line-height: 24px;
+}
+
+.respuestas {
+    margin-bottom: 48px;
+    margin-left: 20px;
+}
+
+    .respuestas label {
+        margin-left: 20px;
+        padding-left: 25px !important;
+        color: rgba(0, 0, 0, 0.87);
+    }
+
+[type="radio"]:not(:checked) + label:before, [type="radio"]:not(:checked) + label:after {
+    border: 1px solid #5a5a5a;
+}
+
+[type="radio"] + label:before, [type="radio"] + label:after {
+    width: 15px;
+    height: 15px;
+}
+
+.page-footer {
+    background: #57585A;
+}
+
+    .page-footer .footer-copyright {
+        min-height: 4px;
+        height: 4px;
+        padding: 0px;
+    }
+
+.perfil-campo {
+    min-height: 81px !important;
+}
+
+.capa-sexo {
+    min-height: 81px !important;
+}
+
+.checkboxes label {
+    color: #000;
+    margin-left: 20px !important;
+    padding-left: 25px !important;
+}
+
+.button {
+    color: #FFF;
+    background: #F2BC25;
+    text-align: center;
+    overflow-x: hidden;
+}
+
+.tabsEncuesta {
+    width: 9% !important;
+}
